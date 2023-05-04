@@ -1,0 +1,19 @@
+class rk {
+public static void main (string arg's[]){
+int n=121;
+int num =n;
+int rev;
+ while (n!==0){
+ n= n%10;
+ rev =rev*10+rev;
+ n=n/10;
+}
+if (num==rev){
+ System.out.println("Given number is an Polidrum" +rev);
+}
+else{
+ System.out.println("Given number is not an Polidrum" +rev);
+}
+}
+}
+  
